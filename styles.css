@@ -81,6 +81,7 @@ button {
 }
 .body {
     text-align: center;
+    margin-bottom: 3%;
 }
 .illustration {
     border: 2px solid #3882f6;
@@ -106,7 +107,22 @@ button {
 }
 .quote {
     background: #E5E7EB;
+    
+    display: flex;
+    justify-content: flex-end;
+    padding: 5% 15%;
+    flex-wrap: wrap;
+}
+.inspiring {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+}
+.quote p {
+    margin: 0;
+}
+.author {
+    color:#1F2937;
+    font-size: 24px;
+    font-weight: 800;
 }
